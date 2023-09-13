@@ -15,7 +15,7 @@ install:
 - pip install pyinstaller
 
 build_script:
-- flet pack main.py --name counter --icon icon.png --product-name counter --product-version "1.2.3" --copyright "Copyright (c) 2022 YourCompany Inc."
+- flet pack main.py --name helloflet --product-name hellofret --product-version "1.2.3" --copyright "Copyright (c) 2022 YourCompany Inc."
 
 test: off
 
